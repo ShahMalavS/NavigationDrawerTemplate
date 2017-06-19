@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/action_bar_color">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tope">
+
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="left"
+            android:id="@+id/img"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@id/tope"
+        android:background="@color/action_bar_color">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/banar1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </RelativeLayout>
+
+    <TextView
+          android:id="@+id/earn"
+          android:gravity="center"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Holistree"
+          android:textColor="#ffffff"
+          android:padding="10dp"
+          android:textStyle="bold"
+          android:layout_below="@id/nav_header_container"  />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_below="@id/earn" />
+
+    <ListView
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/list"
+        android:layout_below="@id/earn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/dividercolour">
+
+    </ListView>
+
+</RelativeLayout>

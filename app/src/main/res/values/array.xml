@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_labels">
+        <item>Feedback</item>
+        <item>My Mood</item>
+        <item>Stats</item>
+        <item>Calender</item>
+        <item>Big Talk</item>
+        <item>Add Reminder</item>
+        <item>Share this App</item>
+        <item>About Us</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="nav_drawer_labels_admin">
+        <item>All Feedback</item>
+        <item>Global Reminders</item>
+        <item>About Us</item>
+        <item>Share this App</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>

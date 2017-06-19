@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CME</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="facebook_app_id">1909773689284702</string>
+    <string name="fb_login_protocol_scheme">fb1909773689284702</string>
+
+</resources>

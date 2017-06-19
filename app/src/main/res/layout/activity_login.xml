@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <!--<ImageView
+        android:id="@+id/zoologo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/me_login"
+        android:layout_marginTop="40dp"/>-->
+
+    <TextView
+        android:id="@+id/zoologo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="CME"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/zoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zoologo"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textColor="#2C3646"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <com.malav.cme.custom_font.MyTextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="#00051f"
+        android:textSize="17dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/zoo"
+        android:layout_marginTop="1dp" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <com.malav.cme.custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAILID"
+            android:inputType="text"
+            android:textColorHint="#a9b0c3"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:paddingLeft="8dp"
+            android:id="@+id/email"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp">
+
+        </LinearLayout>
+
+        <com.malav.cme.custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:textColorHint="#a9b0c3"
+            android:layout_marginTop="30dp"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:paddingLeft="8dp"
+            android:id="@+id/password"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp">
+        </LinearLayout>
+
+        <com.malav.cme.custom_font.MyTextView
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:background="@drawable/round"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginTop="50dp"/>
+
+        <com.malav.cme.custom_font.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="or sign in with:"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#2C3646"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/main"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btfb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fa"
+                android:layout_marginRight="10dp" />
+            <ImageView
+                android:id="@+id/btgp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gp"/>
+            <ImageView
+                android:id="@+id/bttw"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tw"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <com.malav.cme.custom_font.MyTextView
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#2C3646"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <com.malav.cme.custom_font.MyTextView
+            android:id="@+id/forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Forgot Password"
+            android:textColor="#2C3646"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

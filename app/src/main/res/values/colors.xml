@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#0D47A1</color>
+    <color name="accent">#1565C0</color>
+    <color name="action_bar_color">#dc8315</color>
+    <color name="textColor">#F3F3F3</color>
+    <color name="dividercolour">#00000000</color>
+    <color name="review_green">#ff669900</color>
+    <color name="feed_bg">#F7F7F7</color>
+    <color name="background">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="theme_accent">#FFEB3B</color>
+</resources>
